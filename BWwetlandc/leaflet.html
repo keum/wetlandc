@@ -96,10 +96,10 @@
         // Overlay layers (TMS)
         var lyr = L.tileLayer('./{z}/{x}/{y}.png', {
             tms: true,
-            opacity: 0.7,
-            attribution: "",
-            minZoom: 16,
-            maxZoom: 22
+            opacity: .95,
+            attribution: "DroneImage",
+            maxNativeZoom: 16,
+            maxZoom: 100
         });
 
         // Map
